@@ -208,7 +208,12 @@ function star(x, y, r1, r2, npoints) {
   endShape(CLOSE);
 }
 
-Foto: <img width="737" height="492" alt="image" src="https://github.com/user-attachments/assets/509a5fd9-f9e1-4cba-b42f-734d980aacf8" />
+
+Foto: 
+
+
+<img width="737" height="492" alt="image" src="https://github.com/user-attachments/assets/509a5fd9-f9e1-4cba-b42f-734d980aacf8" />
+
 
 
 
