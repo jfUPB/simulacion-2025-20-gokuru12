@@ -11,11 +11,15 @@ _Pregunta_: se plantea un codigo para hacer calculo de las fuerzas de aceleraci�
 _Respuesta_: 
 ¿Que problema hay?: La aceleración se esta sumando en cada instancia una y otra vez, aunque la aceleración debe sumarse con la velocidad anterior, no es la suma de todas las anteriores solo la exacta anterior, esto pasa porque se esta sumando justo en el vector 
 ¿Solución que proponga? Tener un metodo que utilice el valor de la aceleración, sumar la velocidad actual y luego borrar la aceleración anterior para suplantarla con la nueva, haciendo esto en ciclo.
-¿Como lo implementaría en p5.js? update() {
+¿Como lo implementaría en p5.js? 
+
+``` js
+update() {
     this.velocity.add(this.acceleration);  
     this.position.add(this.velocity);     
     this.acceleration.mult(0);      
-  }
+}
+```
 
 ### Actividad 6
 
@@ -47,9 +51,15 @@ _¿Como modelé la fricción?_: copie el valor de la velocidad y lo multiplique 
 
 _¿Como se relaciona la fuerza con la obra?_: La verdad es un ejemplo sencillo de una pelota rebotando, quería asegurarme de la funcionalidad, cuando la pelota no toca el suelo no se detiene, cuando la toca va parando, es decisión del usuario si se detiene o si va saltando
 
-Enlace: https://editor.p5js.org/gokuru12/sketches/zir9fAAVw
+[Enlace a p5.js](https://editor.p5js.org/gokuru12/sketches/zir9fAAVw)
 
-Código: let mover;
+<details>
+<summary>Aquí está el código</summary>
+
+Código: 
+
+``` js
+let mover;
 
 function setup() {
   createCanvas(600, 400);
@@ -131,7 +141,13 @@ class Mover {
   }
 }
 
-Captura: <img width="725" height="504" alt="image" src="https://github.com/user-attachments/assets/3c9e7b94-a263-4eb6-8243-ec001671bc6f" />
+```
+</details>
+
+
+Captura: 
+
+<img width="725" height="504" alt="image" src="https://github.com/user-attachments/assets/3c9e7b94-a263-4eb6-8243-ec001671bc6f" />
 
 #### Resistencia del aire y fluidos
 
@@ -193,5 +209,6 @@ function star(x, y, r1, r2, npoints) {
 }
 
 Foto: <img width="737" height="492" alt="image" src="https://github.com/user-attachments/assets/509a5fd9-f9e1-4cba-b42f-734d980aacf8" />
+
 
 
