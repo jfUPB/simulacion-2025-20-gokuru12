@@ -14,7 +14,7 @@ Pero estamos hablando de vectores así que aquí aplica algo un poco distinto y 
 
 **∑F → x = m*ax → x / ∑F → y = m*ay → y / y ∑F → z = m*az → z**
 <details>
-<summary> Explicación cada componente </summary>
+<summary> <ins>Explicación cada componente</ins> </summary>
 
 __∑F__: Es la sumatoria de fuerzas considerando los vectores, tanto en x, y e z.
 
@@ -48,3 +48,4 @@ __Respuesta__: La diferencia principal es que al crear fuerzas podemos usar o ca
 Junto a eso, estan multiples casos útiles en cosas como videojuegos el saber hacer simulaciones físicas que permitan hacer más realistas las cosas y no solo moverse más o menos rápido.
 
 ### Parte 2
+
