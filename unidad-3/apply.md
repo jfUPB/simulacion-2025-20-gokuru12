@@ -190,3 +190,6 @@ function keyPressed() {
 
 </details>
 
+__Pregunta__: Captura de la actividad
+
+<img width="918" height="379" alt="image" src="https://github.com/user-attachments/assets/5bcac3de-f6a0-4f09-bfce-a1e8350607ef" />
