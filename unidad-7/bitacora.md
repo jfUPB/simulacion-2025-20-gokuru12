@@ -17,5 +17,9 @@ __Que ejemplos (sin animación) se te ocurren__: En la palabra viento quise hace
 __Para que se usa ¨Engine¨, ¨World¨, ¨Bodies¨, ¨Constraint¨ y ¨MouseConstraint¨?__: 
 
 Engine: Es el apartado que trae el motor que calcula las físicas de una vez
-World: Es el apartado que pone que lo que salga en pantalla es el "mundo" y en ese mundo es donde ocurren las situaciones, por lo que aplique en la programación 
+
+World: Es el apartado que pone que lo que salga en pantalla es el "mundo" y en ese mundo es donde ocurren las situaciones, por lo que aplique en la programación
+
 Bodies: Son los objetos que se ven afectados por las relgas físicas del engine. 
+
+
